@@ -18,3 +18,26 @@ body{
     display: block;
     margin-right: 250px;
 }
+h1{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 500px;
+}
+h1{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 70px;
+}
+h2{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-bottom: 70px;
+    
+}
+input{
+padding-bottom: 10px;
+border-radius: 10px;
+}
