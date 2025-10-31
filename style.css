@@ -12,7 +12,7 @@ body{
     height: auto;
 }
 
-#index .container img  {
+#index .container img {
     width: 100%;
     margin: 40% auto;
     display: block;
@@ -22,22 +22,21 @@ h1{
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    padding-top: 500px;
-}
-h1{
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    margin-top: 70px;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding-top: 150px;
+    padding-left: 112px;
 }
 h2{
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
+    padding-left: 40px;
     
 }
 input{
 padding-bottom: 10px;
 border-radius: 10px;
+padding-left: 20px;
 }
