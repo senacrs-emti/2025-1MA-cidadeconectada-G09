@@ -2,7 +2,31 @@
     padding: 0;
     margin: 0;
 }
-body{
+#bloco{
+    width: 350px;
+    height: 650px;
+    float: left;
+    margin: 40px;
+    display: block;
+    background-color: #d46bca;
+    margin-left:500px ;
+    margin-top:40px;
+    border-radius: 25px;
+    border: 8px solid rgb(107, 107, 107);
+}
+#index .bloco img {
+    width: 100%;
+    margin: 40% auto;
+    display: block;
+    margin-right: 250px;
+}
+
+
+
+
+
+/*body{
+
     background-color: #d46bca;
 }
 .container{
@@ -41,4 +65,4 @@ border-radius: 10px;
 padding-left: 20px;
 margin-left: 40px;
 text-align: center;
-}
+}*/
