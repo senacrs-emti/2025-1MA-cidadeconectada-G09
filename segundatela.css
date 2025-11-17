@@ -1,0 +1,11 @@
+#bloco{
+    width: 350px;
+    height: 650px;
+    float: left;
+    display: block;
+    background-color: #d46bca;
+    margin-left: 500px;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: 5px solid rgb(107, 107, 107);
+}
