@@ -1,21 +1,34 @@
+
+
 *{
-    background-color: #d46bca;
     margin: 0%;
     padding: 0%;
 }
+
 #feed{
-    height: 200px;
-    width: 200px;
-    color: rgb(0, 0, 0);
-    margin-left: 50px;
-    margin-top: 90px;
-    border-color: aliceblue;
+    height: 50px;
+    width: 270px;
+    margin-left: 35px;
+    margin-top: 350px;
+    border: 3px solid whitesmoke;
     border-radius: 10px;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 23px;
     margin-top: 150px;
-    margin-left: 25px;
+    margin-left: 40px;
+}
+#bloco{
+    border-radius: 25px;
+    border: 8px solid rgb(107, 107, 107); 
+    background-color: #d46bca;
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 350px;
+    height: 650px
+}
+textarea::placeholder{
+    padding: 10px;
 }
