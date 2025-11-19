@@ -4,12 +4,27 @@
     margin: 0%;
     padding: 0%;
 }
+.star-rating {
+  font-size: 2em; /* Adjust star size */
+  margin-top: 30px;
+  margin-left: 90px;
+  color: #ccc; /* Default star color (unfilled) */
+  cursor: pointer;
+}
+
+.star.filled {
+  color: gold; /* Color for filled stars */
+}
+
+.star:hover {
+  color: orange; /* Hover effect color */
+}
 
 #feed{
     height: 50px;
     width: 270px;
     margin-left: 35px;
-    margin-top: 350px;
+    margin-top: 30px;
     border: 3px solid whitesmoke;
     border-radius: 10px;
 }
@@ -17,7 +32,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     font-size: 23px;
-    margin-top: 150px;
+    margin-top: 80px;
     margin-left: 40px;
 }
 #bloco{
@@ -32,3 +47,15 @@ h1{
 textarea::placeholder{
     padding: 10px;
 }
+
+/*mapa*/
+		.leaflet-container {
+			height: 270px;
+			width: 270px;
+            margin-top: 40px;
+            margin-left: 40px;
+            border-radius: 10px;
+			max-width: 100%;
+			max-height: 100%;
+		}
+
