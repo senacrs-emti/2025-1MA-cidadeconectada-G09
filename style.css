@@ -16,7 +16,11 @@ h1{
     color: white;
     text-align: center;
 }
-
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
 .imagensComoIr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -39,6 +43,7 @@ h1{
 .imagensComoIr img:hover {
     transform: scale(1.1);
 }
+
 
 
 
