@@ -39,7 +39,10 @@ h1{
 .imagensComoIr img:hover {
     transform: scale(1.1);
 }
-
+ul li {
+    list-style: none;
+    display: inline-block;
+}
 
 
 
