@@ -5,19 +5,19 @@
     padding: 0%;
 }
 .star-rating {
-  font-size: 2em; /* Adjust star size */
+  font-size: 2em; 
   margin-top: 30px;
   margin-left: 90px;
-  color: #ccc; /* Default star color (unfilled) */
+  color: #ccc; 
   cursor: pointer;
 }
 
 .star.filled {
-  color: gold; /* Color for filled stars */
+  color: gold;
 }
 
 .star:hover {
-  color: orange; /* Hover effect color */
+  color: orange; 
 }
 
 #feed{
@@ -36,13 +36,17 @@ h1{
     margin-left: 40px;
 }
 #bloco{
-    border-radius: 25px;
-    border: 8px solid rgb(107, 107, 107); 
-    background-color: #d46bca;
-    margin-left: 500px;
-    margin-top: 50px;
     width: 350px;
-    height: 650px
+    height: 650px;
+    float: left;
+    margin: 40px;
+    display: block;
+    background-color: #d46bca;
+    margin-left:500px ;
+    margin-top:40px;
+    border-radius: 25px;
+    border: 8px solid rgb(107, 107, 107);
+ 
 }
 textarea::placeholder{
     padding: 10px;
