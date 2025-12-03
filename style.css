@@ -11,37 +11,45 @@
 }
 h1{
     font-size: 28px;
-    margin-top: 50px;
+    margin-top: 70px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
 }
-
-.imagensComoIr{
+.imagenscomoir {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding: 15px;
-    padding-right: 30%;
+    padding: 60px 18px;
     justify-items: center;
     align-items: center;
     margin: 0 auto;
 }
-.imagensComoIr img{
-    margin-top: 50px;
+.icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.icone img {
+   
     width: 100px;
     height: 120px;
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    margin-bottom: 5px;
 }
-.imagensComoIr img:hover {
+.icone.icone-nome {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #272727;
+    text-align: center;
+    margin: 0;
+}
+.icone:hover img {
     transform: scale(1.1);
-}
-ul li {
-    list-style: none;
-    display: inline-block;
 }
 
 
