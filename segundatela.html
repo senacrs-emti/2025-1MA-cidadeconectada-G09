@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Document</title>
+    <title>VAGmaps</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
     <link rel="stylesheet" href="segundatela.css">
      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -13,19 +16,39 @@
      crossorigin=""></script>
 </head>
 <body>
-    
+   
     <div id="bloco">
-         <div id="map">
-                           <div id="BarraPesquisa">
-                           <input type="text" id="input">
-    </div>
-         </div>        
-    </div>
-    
+        <div id="map"></div>
+   
+        <div id="divDaBarra"> <!-- isso agrupa oque vai flutuar na frente do mapa-->
+            <div id="BarraBusca">
  
-
-
-     <script src="./mapa.js"></script>
-
+                <!-- onde o usuario vai escrever onde quer ir-->
+                <input type="text" placeholder="Para onde?" id="input">
+            </div>
+ 
+            <div id="Botoes">
+                <button class="btn">
+                    <div class="icone casa-cor">🏠</div>
+                    <span>casa</span>
+                </button>
+               
+                <button class="btn">
+                    <div class="icone trabalho-cor">💼</div>
+                    <span>trabalho</span>
+                </button>
+               
+                <button class="btn">
+                    <div class="icone adicionar-cor">➕</div>
+                    <span>adicionar</span>
+                </button>
+            </div>
+        </div>
+    </div>
+     <script src="./segundaTela.js"></script>
+   </div>
+   
+ 
+ 
 </body>
 </html>

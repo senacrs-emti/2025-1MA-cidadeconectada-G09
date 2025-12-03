@@ -1,12 +1,5 @@
-
-       const BotaoBike = document.getElementById("btnBike");
-         if (botaoBike) {
-        
-        botaoBicicleta.addEventListener('click', () => {
-        
-            window.location.href = 'segundatela.html';
-        });
-
-    } else {
-        console.error("Elemento com ID 'btn-bicicleta' não encontrado.");
-    }
+var map = L.map('map').setView([-30.025383, -51.212392], 15);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
