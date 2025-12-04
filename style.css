@@ -1,4 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.star-rating {
+  font-size: 2em; 
+  margin-top: 30px;
+  margin-left: 90px;
+  color: #ccc; 
+  cursor: pointer;
+}
 
+.star.filled {
+  color: gold;
+}
+
+.star:hover {
+  color: orange; 
+}
+
+#feed{
+    height: 50px;
+    width: 270px;
+    margin-left: 35px;
+    margin-top: 30px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 23px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
 #bloco{
     width: 350px;
     height: 650px;
@@ -59,8 +93,7 @@ margin-left: 60px;
     border: 1px solid #ccc;
     border-radius: 10px;
     float: left;
-}
-    display: block;{
+    display: block;
     background-color: #d46bca;
     margin-left: 500px;
     margin-top: 40px;
@@ -97,23 +130,17 @@ h1{
 .imagensComoIr img:hover {
     transform: scale(1.1);
 }
+textarea::placeholder{
+    padding: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* mapa */
+.leaflet-container {
+    height: 270px;
+    width: 270px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
