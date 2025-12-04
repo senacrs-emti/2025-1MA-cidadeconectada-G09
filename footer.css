@@ -1,23 +1,24 @@
+
 *{
     margin: 0%;
     padding: 0%;
 }
 .star-rating {
-  font-size: 2em; 
+  font-size: 2em;
   margin-top: 30px;
   margin-left: 90px;
-  color: #ccc; 
+  color: #ccc;
   cursor: pointer;
 }
-
+ 
 .star.filled {
   color: gold;
 }
-
+ 
 .star:hover {
-  color: orange; 
+  color: orange;
 }
-
+ 
 #feed{
     height: 50px;
     width: 270px;
@@ -33,18 +34,61 @@ h1{
     margin-top: 80px;
     margin-left: 40px;
 }
-#bloco{
+#bloco {
     width: 350px;
     height: 650px;
-    float: left;
-    margin: 40px;
     display: block;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
     background-color: #d46bca;
-    margin-left:500px ;
-    margin-top:40px;
     border-radius: 25px;
-    border: 8px solid rgb(107, 107, 107);
+    border: 5px solid rgb(107, 107, 107);
+ 
 }
+textarea::placeholder{
+    padding: 10px;
+}
+ 
+/*mapa*/
+    .leaflet-container {
+      height: 270px;
+      width: 270px;
+            margin-top: 40px;
+            margin-left: 40px;
+            border-radius: 10px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 #index #bloco img {
     width: 350px;
     margin: 40% auto 0 auto;

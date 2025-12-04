@@ -1,31 +1,20 @@
-
-const btnContinuar = document.getElementById("btnContinuar");
-
-btnContinuar.addEventListener('click', () => {
-    // captura o nome digitado pelo usuario
-    let txtNome = document.getElementById("txtNome").value;
-    // armazena o nome do usuario
-    localStorage.setItem("nomeUsuario", txtNome);
-    // manda para outra pagina
-    location.href = "primeiratela.html";
-});
-
+ 
 //mapa
 const map = L.map('map').setView([-30.0253092,-51.2071931], 17);
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-
+ 
 const marker = L.marker([-30.0253092,-51.2071931], {alt: 'Kyiv'}).addTo(map).bindPopup('Kyiv, Ukraine is the birthplace of Leaflet!');
-
-
+ 
+ 
 const starRating = document.getElementById('starRating');
 const stars = starRating.querySelectorAll('.star');
 const selectedRatingDisplay = document.getElementById('selectedRating');
-
+ 
 let currentRating = 0; // Stores the currently selected rating
-
+ 
 starRating.addEventListener('mouseover', (event) => {
   const hoveredStar = event.target.closest('.star');
   if (hoveredStar) {
@@ -33,11 +22,11 @@ starRating.addEventListener('mouseover', (event) => {
     highlightStars(value);
   }
 });
-
+ 
 starRating.addEventListener('mouseout', () => {
   highlightStars(currentRating); // Reset to selected rating
 });
-
+ 
 starRating.addEventListener('click', (event) => {
   const clickedStar = event.target.closest('.star');
   if (clickedStar) {
@@ -46,7 +35,7 @@ starRating.addEventListener('click', (event) => {
     highlightStars(currentRating);
   }
 });
-
+ 
 function highlightStars(value) {
   stars.forEach((star) => {
     if (parseInt(star.dataset.value) <= value) {
@@ -56,6 +45,8 @@ function highlightStars(value) {
     }
   });
 }
-
+ 
 // Initial display of selected rating
 selectedRatingDisplay.textContent = currentRating;
+ 
+ 
